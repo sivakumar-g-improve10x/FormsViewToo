@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrationSuccessfullyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            app:srcCompat="@drawable/img" />
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:text="You have successfully completed the process"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Username_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="UserName"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Firstname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FirstName"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Lastname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LastName"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Apatment_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="H.NO/Apartment"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Streatname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="StreetName"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/City_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/State_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Country_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Country"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Dateofbirth_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date of Birth"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Placeofbirth_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Place of Birth" />
+
+            <TextView
+                android:id="@+id/Currentcompany_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Current Company"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Totalexperience_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Experience" />
+
+            <TextView
+                android:id="@+id/Designation_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Designation"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Bankname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bank Name"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Accountholder_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Holder"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Accountnumber_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Account Number"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Cardnumber_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Card Number"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Cardholder_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Card Holder"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Expiry_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Expiry"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/CVV_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CVV" />
+
+            <TextView
+                android:id="@+id/Ifsc_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="IFSC Code"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Pannumber_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Pan Number"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/Adharnumber_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Aadhar Number"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/email_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="vissu@gmail.com"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/username_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="vissu.info"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/firstname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Viswanath"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/lastname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sandhu"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/apartment_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1-8-231, Sri Apartments"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/streetname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Srinivasa Street"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/city_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hyderbad"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/state_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telangana"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/country_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="India"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/dateofbirth_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="18-Jan"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/placeofbirth_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kurnool"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/currentcompany_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Imorove 10X" />
+
+            <TextView
+                android:id="@+id/totalexperience_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="12Years"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/designation_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trainer"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/bankname_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ICICI Bank"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/accountholder_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Viswanath Kumar Sandu"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/accountnumber_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="625101515776"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cardnumber_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3434432343327678"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cardholder_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Viswanath Sandhu"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/expiry_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="05/2026"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cvv_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="334"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/ifsc_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ICIC0006251"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/pannumber_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ABCD1234G"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/aadhernumber_txt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="34343434343433"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
